@@ -28,13 +28,7 @@ $(function() {
 
     //owl
 
-    $(".next").click(function() {
-        owl.trigger("next.owl.carousel");
-    });
 
-    $(".prev").click(function() {
-        owl.trigger("prev.owl.carousel");
-    });
 
     $(".sf-menu").after('<div id="my-menu">');
     $(".sf-menu").clone().appendTo("#my-menu");
